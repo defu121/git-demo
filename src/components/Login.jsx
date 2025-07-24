@@ -4,7 +4,7 @@ import UserInfo from "./UserInfo";
 
 // GitHub OAuth参数
 const CLIENT_ID = "YOUR_CLIENT_ID"; // 替换为你的GitHub OAuth应用ID
-const REDIRECT_URI = "http://localhost:3000"; // 替换为你的前端地址
+const REDIRECT_URI = "http://localhost:8080"; // 替换为你的前端地址
 
 export default function Login() {
   const [user, setUser] = useState(null);
